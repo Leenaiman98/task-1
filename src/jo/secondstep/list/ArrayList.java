@@ -104,4 +104,17 @@ public class ArrayList implements List{
 		else {result = true;}
 	return result;
 	}
-}
+	
+	  public static void main(String[] args) {  
+		  
+	        LinkedList sList = new LinkedList();  
+	         sList.isEmpty();
+	         sList.set(5, 0);
+	        //Adding 1 to the list  
+	        sList.add(1);  
+	  
+	        //Adding 2 to the list  
+	        sList.add(2 , 1);  
+	        
+	        sList.size();
+}}

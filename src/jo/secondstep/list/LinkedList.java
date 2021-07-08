@@ -3,7 +3,7 @@ package jo.secondstep.list;
 public class LinkedList implements List{
 
 	//assume we deal with sigleLinkedList
-    LinkedList list = new LinkedList();
+   // LinkedList list = new LinkedList();
 
     Node head;
     Node tail;
@@ -146,6 +146,23 @@ public class LinkedList implements List{
 	public boolean isEmpty() {
 		return head==null;
 	                         }
+	
+	  
+    public static void main(String[] args) {  
+  
+        LinkedList sList = new LinkedList();  
+         sList.isEmpty();
+         sList.set(5, 0);
+        //Adding 1 to the list  
+        sList.add(1);  
+  
+        //Adding 2 to the list  
+        sList.add(2 , 1);  
+        
+        sList.size();
+  
+       
+    }  
 	
 
 }
