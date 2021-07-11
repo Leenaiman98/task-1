@@ -73,7 +73,8 @@ public class LinkedList implements List{
 
 
 	@Override
-	public void remove(int position) {
+	
+	   public void remove(int position) {
 
 		if (position >= size()|| position < 0) System.out.print("Required position is not valid");
         
@@ -144,15 +145,13 @@ public class LinkedList implements List{
 
 	@Override
 	public boolean isEmpty() {
-		return head==null;
+		return (head==null && tail==null);
 	                         }
-	
 	  
-    public static void main(String[] args) {  
+     public static void main() {  
   
         LinkedList sList = new LinkedList();  
-         sList.isEmpty();
-         sList.set(5, 0);
+        
         //Adding 1 to the list  
         sList.add(1);  
   
@@ -165,4 +164,5 @@ public class LinkedList implements List{
     }  
 	
 
+    
 }

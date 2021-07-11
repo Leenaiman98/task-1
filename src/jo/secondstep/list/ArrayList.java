@@ -67,10 +67,10 @@ public class ArrayList implements List{
 		else 
 			 for(int i=0 ; i<position  ; i++ )	
              {
-				 Requested_Element = elements[position] ;
+				 Requested_Element = elements[position] ;   
              }
 		
-		return Requested_Element;
+		return Requested_Element;  
 	}
 
 	@Override
@@ -117,4 +117,5 @@ public class ArrayList implements List{
 	        sList.add(2 , 1);  
 	        
 	        sList.size();
-}}
+}
+	  }
